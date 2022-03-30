@@ -61,10 +61,13 @@
 @media only screen and (max-width:400px){
     .navbar .menu{
         height: 40vh;
-        transform: translateX(30%);
+        transform: translateX(110%);
     }
     .navbar .menu-toggle{
-        transform: translateX(130%);
+        transform: translateX(6%);
        
-    }   
+    }  
+    div.text_block{
+        left:10%;  
+      } 
 }
