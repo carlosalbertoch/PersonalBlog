@@ -1,0 +1,128 @@
+:root{
+  --color_red:rgb(252, 59, 59);
+}
+
+body{
+  background-color:#21282a;
+  margin:0;
+  height:100%;
+}
+div.rectangle{
+  background:url(../img/cover_overlay.png) no-repeat center/100% 100%, url(../img/cover.png) no-repeat center/cover;
+  height:320px;
+  margin:5px 0 0 0;
+}  
+img.image_photo {
+  height:110px;
+  position:relative;
+  left:50%;
+  margin-left: -55px;
+  margin-top:5%
+
+} 
+div.rectangle h1{
+  color:aliceblue;
+  text-align:center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 42px;
+}
+div.rectangle p{
+  color: var(--color_red);
+  font-size:14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  text-align:center;
+  margin-top:4px;
+  margin-bottom: 8px;
+
+}
+a.button_contact{
+  border:2px solid rgb(202, 200, 200);
+  background-color:rgba(133, 133, 133, 0.3);
+  padding:8px 20px;
+  color:rgb(187, 187, 187);
+  text-decoration:none;
+  display:inline-block;
+  margin-top:9px;
+  margin-bottom:4px
+  
+}
+a.button_contact:hover{
+  border:2px solid var(--color_red);
+  background-color:#21282a;
+  color:var(--color_red);
+}
+div.gray_section_1{
+  background-color:var(--color_red);
+  width:100%;
+  height: 5px;
+  margin-top:-20px;
+  position: absolute;
+}
+div.glass{
+  height: 200px;
+  width: 350px;
+  margin:80px 0px 0px 30px;
+  position: relative;
+  bottom:45%;
+  left:5%;
+  background: rgba(158, 158, 158, 0.3);
+  box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+ 
+}
+
+div.text_block{
+  width: 200px;
+  margin:0px 10px 0px 0px;
+  position: relative;
+  left:15%;
+  top:20%;
+  border-left:1px solid white;
+  padding:0 0 0 10px;
+}
+div.text_block p {
+  font-size:22px;
+  color:rgb(219, 218, 218);
+  overflow:auto
+}
+canvas{
+  width:100%;
+  height:300px;
+  margin-right: 0;
+  padding-top: -10px;
+  margin: auto;
+}
+canvas#webgl{
+  width:100%;
+  height:0px;
+  margin-right: 0;
+}
+div#canvas{
+  width:100%;
+  height:400px;
+  margin: 0 0 0 0;
+}
+div.gray_section_4{
+  background-color:rgb(255, 28, 28);
+  height: 60px;
+  margin:0 0 10px 0;
+  position: relative;
+
+}
+div.icons{
+  width:100%;
+  margin:0
+}
+svg.mail{
+  padding:10px 5px 0px 15px;
+}
+svg.linkedin{
+  padding:10px 5px 0px 15px;
+}
+svg.github{
+  padding:10px 5px 0px 15px;
+}

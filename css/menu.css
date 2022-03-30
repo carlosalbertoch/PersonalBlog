@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;900&family=Roboto:wght@100;300;500;900&display=swap');
+.navbar{
+    position: relative;
+    top: -50px;
+    display:grid;
+    grid-template-columns:repeat(8,1fr);
+    align-items:center;
+    margin-top: 100px;
+   
+}
+.navbar .menu{
+    grid-column:6/9;
+    display: flex;
+    justify-content:space-around; 
+        
+}
+
+ul.menu{
+    list-style-type: none;
+    margin: 8px;
+}
+a.menuHome{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large;
+    text-decoration: none;
+    list-style: none;
+    color:white;       
+}
+a.menuHome:hover {
+    color:rgba(255, 255, 255, 0.3);   
+}
+
+div.iconsMenu{
+    padding-left:10px;
+    padding-top:20px;
+    display: none;
+}
+
