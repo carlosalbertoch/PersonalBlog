@@ -1,0 +1,70 @@
+@media only screen and (max-width:600px){
+        
+    .navbar{
+        position:relative;
+        
+    }
+    div.iconsMenu{
+        display: block;
+        grid-column: 8/9;
+        font-size:2em;
+        cursor:pointer;
+    }
+
+    .navbar .menu{
+        position:absolute;
+        width :45%;
+        height: 45vh;
+        display:grid;
+        align-items:center;
+        text-align: center;
+        background-color:rgba(55, 103, 177, 0.3);
+        margin-top:24.2em;
+        transform: translateX(55%);
+        transition:all 0.1s;    
+        padding-left: 10;
+        justify-content:start;
+        border-left:3px solid rgba(106, 138, 172, 0.3);
+        
+    }
+    .navbar .menu-toggle{
+        transform: translateX(152%); 
+    }    
+
+    svg.IC {
+        stroke: rgb(252, 252, 252)
+    
+    }
+
+    svg.IC:hover {
+        stroke: rgba(255, 255, 255, 0.3);  
+    
+    }
+    div.glass{
+        width: 300px;
+        margin-left:0px;  
+      }
+
+}
+@media only screen and (min-width:900px){
+    .navbar{
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (min-width:1000px){
+    .navbar{
+        margin-top: 70px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .navbar .menu{
+        height: 40vh;
+        transform: translateX(30%);
+    }
+    .navbar .menu-toggle{
+        transform: translateX(130%);
+       
+    }   
+}
