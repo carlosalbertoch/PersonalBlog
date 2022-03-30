@@ -8,9 +8,7 @@ body{
   margin:0;
   height:100%;
 }
-div.wrapper { 
-    overflow-x: hidden;
-}
+
 div.rectangle{
   background:url(../img/cover_overlay.png) no-repeat center/100% 100%, url(../img/cover.png) no-repeat center/cover;
   height:320px;
