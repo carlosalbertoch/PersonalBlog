@@ -2,6 +2,7 @@
         
     .navbar{
         position:relative;
+
         
     }
     div.iconsMenu{
@@ -13,22 +14,23 @@
 
     .navbar .menu{
         position:absolute;
-        width :45%;
-        height: 45vh;
+        width :55%;
+        height: 40vh;
         display:grid;
         align-items:center;
         text-align: center;
-        background-color:rgba(55, 103, 177, 0.3);
+        background-color:rgba(55, 103, 177, 0.1);
         margin-top:24.2em;
-        transform: translateX(55%);
+        transform: translateX(128%);
         transition:all 0.1s;    
-        padding-left: 10;
         justify-content:start;
-        border-left:3px solid rgba(106, 138, 172, 0.3);
+        border-left:3px solid rgba(106, 138, 172, 0.1);
         
     }
+    
     .navbar .menu-toggle{
-        transform: translateX(152%); 
+        transform: translateX(52%); 
+        
     }    
 
     svg.IC {
@@ -64,7 +66,7 @@
         transform: translateX(110%);
     }
     .navbar .menu-toggle{
-        transform: translateX(6%);
+        transform: translateX(8%);
        
     }  
     div.text_block{
