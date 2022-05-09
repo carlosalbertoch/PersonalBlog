@@ -1,0 +1,27 @@
+div.nav{
+    background:#333;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.card-content{
+    height:10px;
+    background-color:rgb(154, 147, 147);
+    
+}
+.galery img {
+    box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
+    border-radius:15px;
+}
+div.galery .col{
+    margin-bottom:10px
+}
+
+div.line1{
+    height:1px;
+    background-color:rgb(199, 48, 48);
+    margin-left:10%;
+    margin-right:10%;
+}
+
+
