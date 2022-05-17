@@ -1,27 +1,35 @@
 div.nav{
-    background:#333;
-    margin-left:10px;
-    margin-right:10px;
+    background:#21282a;
+    margin-left:0px;
+    margin-right:0px;
 }
 
 .card-content{
-    height:10px;
+    height:5px;
     background-color:rgb(154, 147, 147);
     
 }
 .galery img {
-    box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
+    box-shadow: 0 8px 10px -4px #747f82;
     border-radius:15px;
 }
 div.galery .col{
-    margin-bottom:10px
+    margin-bottom:5px
 }
 
 div.line1{
-    height:1px;
-    background-color:rgb(199, 48, 48);
-    margin-left:10%;
-    margin-right:10%;
+    height:4px;
+    background-color:rgb(255, 28, 28);
+
+}
+div.gray_section_red{
+    background-color:rgb(255, 28, 28);
+    height: 60px;
+    margin:0 0 0 0;
+    position: relative;
+}
+span.card-title{
+    color:rgb(255, 28, 28);
 }
 
 
